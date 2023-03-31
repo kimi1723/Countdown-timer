@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/ts/app.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1680218136026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1680218190104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n+const settings = document.querySelector('.settings');\r\n const settings = document.querySelector('.settings');\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1680218393563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n const eventImg = document.querySelector('#event-img')\r\n \r\n const daysCount = document.querySelector('.days-count')\r\n const hoursCount = document.querySelector('.hours-count')\r\n-const minutesCount = document.querySelector('.days-count')\r\n+const minutesCount = document.querySelector('.day-count')\r\n const secondsCount = document.querySelector('.days-count')\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1680218136026,
+            "name": "Commit-0",
+            "content": "console.log('work');"
+        }
+    ]
+}

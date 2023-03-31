@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1680190629668,
@@ -40,6 +40,30 @@
                 {
                     "date": 1680190778209,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n                 </tr>\r\n                 <tr>\r\n                     <td><input type=\"number\" id=\"event-day\" min=\"1\" max=\"31\" value=\"1\"></td>\r\n                     <td><input type=\"number\" id=\"event-month\" min=\"1\" max=\"12\" value=\"1\"></td>\r\n-                    <td><input type=\"number\" id=\"event-year\" min=\"1\" max=\"4\" value=\"2021\"></td>\r\n+                    <td><input type=\"number\" id=\"event-year\" min=\"1\" value=\"2021\"></td>\r\n                 </tr>\r\n             </table>\r\n             <label for=\"event-image\">Link do obrazka:</label>\r\n             <input type=\"text\" id=\"event-image\" value=\"default.jpg\">\r\n"
+                },
+                {
+                    "date": 1680218714283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \r\n \r\n     <div class=\"counter-app\">\r\n \r\n-        <div class=\"settings active\">\r\n+        <div class=\"settings\">\r\n             <h1>ustawienia</h1>\r\n             <label for=\"event-name\">Nazwa wydarzenia:</label>\r\n             <input type=\"text\" id=\"event-name\" value=\"Nowy rok\">\r\n             <table class=\"date\">\r\n"
+                },
+                {
+                    "date": 1680219088067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \r\n \r\n     <div class=\"counter-app\">\r\n \r\n-        <div class=\"settings\">\r\n+        <div class=\"settings active\">\r\n             <h1>ustawienia</h1>\r\n             <label for=\"event-name\">Nazwa wydarzenia:</label>\r\n             <input type=\"text\" id=\"event-name\" value=\"Nowy rok\">\r\n             <table class=\"date\">\r\n@@ -34,9 +34,9 @@\n                     <td><input type=\"number\" id=\"event-year\" min=\"1\" value=\"2021\"></td>\r\n                 </tr>\r\n             </table>\r\n             <label for=\"event-image\">Link do obrazka:</label>\r\n-            <input type=\"text\" id=\"event-image\" value=\"default.jpg\">\r\n+            <input type=\"text\" id=\"event-image\" value=\"/dist/img/default.jpg\">\r\n \r\n             <button class=\"save\">Zapisz</button>\r\n \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1680220630803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n             <div class=\"time-section\">\r\n                 <h3><span class=\"event\">Nowy rok</span> za:</h3>\r\n                 <div class=\"time-cards\">\r\n                     <div class=\"card\">\r\n-                        <p class=\"days-count number\">1</p>\r\n+                        <p class=\"days-count number\"></p>\r\n                         <p class=\"card-title\">Dni</p>\r\n                     </div>\r\n                     <div class=\"card\">\r\n                         <p class=\"hours-count number\">23</p>\r\n"
+                },
+                {
+                    "date": 1680220639283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n                 </tr>\r\n                 <tr>\r\n                     <td><input type=\"number\" id=\"event-day\" min=\"1\" max=\"31\" value=\"1\"></td>\r\n                     <td><input type=\"number\" id=\"event-month\" min=\"1\" max=\"12\" value=\"1\"></td>\r\n-                    <td><input type=\"number\" id=\"event-year\" min=\"1\" value=\"2021\"></td>\r\n+                    <td><input type=\"number\" id=\"event-year\" min=\"1\" value=\"2023\"></td>\r\n                 </tr>\r\n             </table>\r\n             <label for=\"event-image\">Link do obrazka:</label>\r\n             <input type=\"text\" id=\"event-image\" value=\"/dist/img/default.jpg\">\r\n@@ -53,17 +53,17 @@\n                         <p class=\"days-count number\"></p>\r\n                         <p class=\"card-title\">Dni</p>\r\n                     </div>\r\n                     <div class=\"card\">\r\n-                        <p class=\"hours-count number\">23</p>\r\n+                        <p class=\"hours-count number\"></p>\r\n                         <p class=\"card-title\">Godzin</p>\r\n                     </div>\r\n                     <div class=\"card\">\r\n-                        <p class=\"minutes-count number\">48</p>\r\n+                        <p class=\"minutes-count number\"></p>\r\n                         <p class=\"card-title\">Minut</p>\r\n                     </div>\r\n                     <div class=\"card\">\r\n-                        <p class=\"seconds-count number\">35</p>\r\n+                        <p class=\"seconds-count number\"></p>\r\n                         <p class=\"card-title\">Sekund</p>\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1680220684877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,11 @@\n                     <td><label for=\"event-month\">Miesiąc:</label></td>\r\n                     <td><label for=\"event-year\">Rok:</label></td>\r\n                 </tr>\r\n                 <tr>\r\n-                    <td><input type=\"number\" id=\"event-day\" min=\"1\" max=\"31\" value=\"1\"></td>\r\n-                    <td><input type=\"number\" id=\"event-month\" min=\"1\" max=\"12\" value=\"1\"></td>\r\n-                    <td><input type=\"number\" id=\"event-year\" min=\"1\" value=\"2024\"></td>\r\n+                    <td><input type=\"number\" id=\"event-day\" min=\"1\" max=\"31\" value=\"4\"></td>\r\n+                    <td><input type=\"number\" id=\"event-month\" min=\"1\" max=\"12\" value=\"5\"></td>\r\n+                    <td><input type=\"number\" id=\"event-year\" min=\"1\" value=\"2023\"></td>\r\n                 </tr>\r\n             </table>\r\n             <label for=\"event-image\">Link do obrazka:</label>\r\n             <input type=\"text\" id=\"event-image\" value=\"/dist/img/default.jpg\">\r\n"
+                },
+                {
+                    "date": 1680220691149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n             <div class=\"image-section\">\r\n                 <div class=\"settings-btn\"><i class=\"fas fa-sliders-h\"></i></div>\r\n             </div>\r\n             <div class=\"time-section\">\r\n-                <h3><span class=\"event\">Nowy rok</span> za:</h3>\r\n+                <h3><span class=\"event\">Matura</span> za:</h3>\r\n                 <div class=\"time-cards\">\r\n                     <div class=\"card\">\r\n                         <p class=\"days-count number\"></p>\r\n                         <p class=\"card-title\">Dni</p>\r\n"
                 }
             ],
             "date": 1680190629668,
